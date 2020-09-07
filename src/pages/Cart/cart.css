@@ -1,0 +1,15 @@
+.row-header {
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  height: 130px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+
+.btn-buy {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin: 20px;
+}

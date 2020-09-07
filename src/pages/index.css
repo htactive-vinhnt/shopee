@@ -1,0 +1,225 @@
+.top-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.body-home {
+  width: 100%;
+  margin-left: -31.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row-top-banner {
+  padding-top: 30px;
+  margin-top: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.125rem;
+  overflow: hidden;
+}
+
+.row-banner {
+  line-height: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  height: 235px;
+  width: 100%;
+}
+.slideshow-banner {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.125rem;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 1 0;
+  -moz-box-flex: 2;
+  -ms-flex: 2 1 0px;
+  flex: 2 1 0;
+  overflow: hidden;
+}
+
+.col-right-banner {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -moz-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 0.3125rem;
+}
+
+.banner {
+  background-position: bottom;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-bottom-banner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 1200px;
+  margin: 10px auto 0;
+  min-height: 108px;
+}
+
+.box-item-bottom-banner {
+  width: 100px;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.body-item-bottom-banner {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 18px auto 8px;
+}
+
+.content-item-bottom-banner {
+  height: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+.item-bottom-banner {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.title-item {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 0.8125rem;
+  line-height: 0.875rem;
+  max-width: 150px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #222;
+  letter-spacing: 0;
+  text-align: center;
+}
+.package-banner {
+  margin-top: 20px;
+  margin-left: 4%;
+  height: 110px;
+  width: 96%;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.row-category {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 400px;
+  margin-left: 30px;
+}
+
+.header-section {
+  background: #fff;
+  height: 3.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0 1.25rem;
+  margin-bottom: 20px;
+}
+
+.section-header-title {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.list-category {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.image-category-item-list {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.border-item {
+  width: 120px;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid rgb(226, 222, 222);
+  display: flex;
+  flex-direction: column;
+}
+
+.body-item {
+  top: 0;
+  width: 120px;
+  height: 100px;
+}
+
+.title-category {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.875rem;
+  text-decoration: none;
+  line-height: 1.25rem;
+  max-height: 2.5rem;
+  word-break: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.row-flash-sale {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+}
+
+.title-flash-sale {
+  margin-left: 50px;
+  width: 100%;
+  height: 20px;
+  font-size: 30px;
+  color: black;
+  z-index: 20;
+  border-bottom: 1px solid rgb(218, 215, 215);
+}
